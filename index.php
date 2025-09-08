@@ -76,7 +76,7 @@ $currentState = $_SESSION["state"] ?? "start";
         <?php endif; ?>
         <!-- Banner Image -->
         <div class="text-center dkban">
-            <img src="assets/bannernew.jpg" class="img-fluid" alt="Banner SG60"
+            <img src="assets/bannerq1.jpeg" class="img-fluid" alt="Banner SG60"
                 style="border-radius: 20px 20px 0px 0px; margin-top: 20px;">
         </div>
     
@@ -155,3 +155,4 @@ $currentState = $_SESSION["state"] ?? "start";
 
 
 </html>
+
